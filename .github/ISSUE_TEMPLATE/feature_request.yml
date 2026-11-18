@@ -1,0 +1,46 @@
+name: Propose something new
+description: A data source, an analysis, a skill, a use case, or any other change you would like to see or make.
+labels: ["needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us about the problem first. A clear description of who needs this and why is more useful than a finished design. Please do not include personal data about real people.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The question you cannot answer or the task that is harder than it should be. Say who it is for, for example a small charity writing a funding bid.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of change is it?
+      options:
+        - A new data source
+        - A new worked analysis
+        - A new skill for AI assistants
+        - A use case for the list
+        - An improvement to something that exists
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What do you propose?
+      description: If you have an idea of how it should work, describe it. For a data source, link to it and say which licence it is published under.
+  - type: textarea
+    id: done
+    attributes:
+      label: How would we know it is done?
+      description: One or two checks that someone could run, such as an example input and the result you would expect.
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: Before you submit
+      options:
+        - label: I would like to open a pull request for this myself.
+        - label: This proposal contains no personal data about real people.
+          required: true
