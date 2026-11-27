@@ -8,7 +8,7 @@ Most charities cannot hire a data team. We build the tools a good one would use,
 
 | Project | What it does |
 | --- | --- |
-| [kindtech](https://github.com/KindTechUK/kindtech) | Python package for UK public data: area boundaries, official statistics, postcodes and deprivation indices for all four nations. Includes worked charity case studies you can run in the browser. [Docs](https://kindtechuk.github.io/kindtech/) |
+| [uk-open-data](https://github.com/KindTechUK/uk-open-data) | UK open data in Python for civil society, from charities and community groups to researchers and students. Includes worked charity case studies you can run in the browser. [Docs](https://kindtechuk.github.io/uk-open-data/) |
 | [open-foi](https://github.com/KindTechUK/open-foi) | Command-line search of Freedom of Information requests on WhatDoTheyKnow |
 | [awesome-charity-ai-use-cases](https://github.com/KindTechUK/awesome-charity-ai-use-cases) | A list of real examples of charities using AI, with what they learned |
 
